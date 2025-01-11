@@ -9,4 +9,9 @@ order: 4
 
 
 
-Test 
+Interested Topics:
+
+- CTF Challenges
+- Red Teaming
+- Reverse Engineering
+ 
