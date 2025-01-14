@@ -4,14 +4,10 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+Hello, my name is MPLhack3d, and I am a dedicated Cybersecurity Researcher with a passion for learning new skills. My areas of interest encompass a wide range of cybersecurity topics, including:
 
-
-
-Interested Topics:
-
-- CTF Challenges
+- CTF Challenges & Writeup's
 - Red Teaming
 - Reverse Engineering
  
+Feel free to connect with me on my socials. I'm always eager to engage with fellow enthusiasts and professionals in the field.
