@@ -12,7 +12,7 @@ Hello, my name is MPLhack3d, and I am a dedicated Cybersecurity Researcher with 
  
 Feel free to connect with me on my socials. I'm always eager to engage with fellow enthusiasts and professionals in the field.
 
-My current stats are listed below
+My current stats are listed below:
 
 ## Tryhackme
 <img src="https://tryhackme-badges.s3.amazonaws.com/MPLhack3d.png" alt="MPLhack3d - Tryhackme" />
