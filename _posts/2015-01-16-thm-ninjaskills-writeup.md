@@ -32,7 +32,7 @@ tags: [bash, linux, scripting]
   </tr>
   <tr>
     <td>Link</td>
-    <td>https://tryhackme.com/r/room/ninjaskills</td>
+    <td><https://tryhackme.com/r/room/ninjaskills></td>
   </tr>
 </table>
 </center>
