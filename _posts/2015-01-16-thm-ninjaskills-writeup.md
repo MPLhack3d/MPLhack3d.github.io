@@ -11,7 +11,6 @@ tags: [bash, linux, scripting]
 <center>
 <table>
   <tr>
-    <td rowspan="6">![Desktop View](https://tryhackme-images.s3.amazonaws.com/room-icons/debd97fb93bffb8eb23d0687aa382bb0.png){: width="200" height="200" }</td>
     <td>Plattform</td>
     <td>TryHackMe</td>
   </tr>
