@@ -1,9 +1,9 @@
 ---
 title: "Ninja Skills"
 date: 2025-01-16
-image: /assets/img/Posts/rootme/rootme.png
+image: /assets/img/tryhackme/NinjaSkills/NinjaSkills_image.jpg
 categories: [Tryhackme, Easy]
-tags: [bash, linux, scripting]     # TAG names should always be lowercase
+tags: [bash, linux, scripting]
 ---
 
 # Challenge Description
