@@ -7,7 +7,7 @@ categories: [Tryhackme, Easy]
 tags: [bash, linux, scripting]
 ---
 
-# Challenge Description
+## Challenge Description
 <center>
 <table>
   <tr>
@@ -64,7 +64,7 @@ The aim is to answer the questions as efficiently as possible.
 ```
 The last sentence seems to indicate that automation, i.e. scripting, may be necessary
 
-# Connect
+## Connect
 The ssh connection didn't work directly, so grab youself some coffee and wait a bit. 
 - Username: new-user
 - Password: new-user
@@ -81,7 +81,7 @@ Last login: Wed Jan  8 19:37:08 2025 from ip-10-100-1-175.eu-west-1.compute.inte
 [new-user@ip-10-10-87-136 ~]$
 ```
 
-# Challenge
+## Challenge
 As the challenge said we need to answer questions about the mentioned files. In the users home directory there is a 'files' directory:
 ```bash
 [new-user@ip-10-10-87-136 ~]$ ls
