@@ -130,7 +130,7 @@ Now we can call the script with the following syntax:
 ./thm_finder.sh file_list "ls"
 ```
 
-With this preperation, we can answer the question one by one:
+With this preperation, we can answer the questions one by one:
 1. `./thm_finder.sh file_list "ls -al"`
 2. `./thm_finder.sh file_list "grep -Eo \"([0-9]{1,3}\.){3}[0-9]{1,3}\""`
 3. `./thm_finder.sh file_list "sha1sum"`
