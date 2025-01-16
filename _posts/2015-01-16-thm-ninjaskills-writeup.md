@@ -91,7 +91,6 @@ files
 total 8
 drwxrwxr-x 2 new-user new-user 4096 Oct 23  2019 .
 drwx------ 3 new-user new-user 4096 Oct 23  2019 ..
-[new-user@ip-10-10-87-136 files]$ 
 ```
 The folder is empty. After some manual searching I found the first file in `/home`:
 ```bash
