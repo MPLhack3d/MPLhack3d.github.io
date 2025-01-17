@@ -138,7 +138,7 @@ With this preperation, we can answer the questions one by one:
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-> There is one file which could not be found, have that in mind :blush:
+> There is one file which could not be found, have that in mind :)
 {: .prompt-tip }
 <!-- markdownlint-restore -->
 
