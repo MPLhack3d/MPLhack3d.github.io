@@ -142,4 +142,4 @@ With this preperation, we can answer the questions one by one:
 {: .prompt-tip }
 <!-- markdownlint-restore -->
 
-solved!
+solved! :)
