@@ -2,15 +2,15 @@
 title: "Ninja Skills"
 date: 2025-01-16
 image: /assets/img/tryhackme/NinjaSkills/NinjaSkills_image.jpg
+description: Writeup of the TryHackMe-CTF Ninja Skills
 categories: [Tryhackme, Easy]
 tags: [bash, linux, scripting]
 ---
 
-# Challenge Description
+## Challenge Description
 <center>
 <table>
   <tr>
-    <td rowspan="6">![Desktop View](https://tryhackme-images.s3.amazonaws.com/room-icons/debd97fb93bffb8eb23d0687aa382bb0.png){: width="200" height="200" }</td>
     <td>Plattform</td>
     <td>TryHackMe</td>
   </tr>
@@ -32,7 +32,7 @@ tags: [bash, linux, scripting]
   </tr>
   <tr>
     <td>Link</td>
-    <td>https://tryhackme.com/r/room/ninjaskills</td>
+    <td><a href="https://tryhackme.com/r/room/ninjaskills">https://tryhackme.com/r/room/ninjaskills</a></td>
   </tr>
 </table>
 </center>
@@ -64,7 +64,7 @@ The aim is to answer the questions as efficiently as possible.
 ```
 The last sentence seems to indicate that automation, i.e. scripting, may be necessary
 
-# Connect
+## Connect
 The ssh connection didn't work directly, so grab youself some coffee and wait a bit. 
 - Username: new-user
 - Password: new-user
@@ -81,7 +81,7 @@ Last login: Wed Jan  8 19:37:08 2025 from ip-10-100-1-175.eu-west-1.compute.inte
 [new-user@ip-10-10-87-136 ~]$
 ```
 
-# Challenge
+## Challenge
 As the challenge said we need to answer questions about the mentioned files. In the users home directory there is a 'files' directory:
 ```bash
 [new-user@ip-10-10-87-136 ~]$ ls
@@ -91,7 +91,6 @@ files
 total 8
 drwxrwxr-x 2 new-user new-user 4096 Oct 23  2019 .
 drwx------ 3 new-user new-user 4096 Oct 23  2019 ..
-[new-user@ip-10-10-87-136 files]$ 
 ```
 The folder is empty. After some manual searching I found the first file in `/home`:
 ```bash
@@ -129,7 +128,7 @@ Now we can call the script with the following syntax:
 ./thm_finder.sh file_list "ls"
 ```
 
-With this preperation, we can answer the question one by one:
+With this preperation, we can answer the questions one by one:
 1. `./thm_finder.sh file_list "ls -al"`
 2. `./thm_finder.sh file_list "grep -Eo \"([0-9]{1,3}\.){3}[0-9]{1,3}\""`
 3. `./thm_finder.sh file_list "sha1sum"`
@@ -139,7 +138,7 @@ With this preperation, we can answer the question one by one:
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-> There is one file which could not be found, have that in mind :blush:
+> There is one file which could not be found, have that in mind :)
 {: .prompt-tip }
 <!-- markdownlint-restore -->
 
