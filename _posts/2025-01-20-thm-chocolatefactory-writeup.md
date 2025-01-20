@@ -1,7 +1,7 @@
 ---
 title: "Chocolate Factory"
 date: 2025-01-20
-image: /assets/img/tryhackme/ChocolateFactory/ChocolateFactory_image.jpg
+image: /assets/img/tryhackme/ChocolateFactory/ChocolateFactory_image.png
 description: Writeup of the TryHackMe-CTF Chocolate Factory
 categories: [Tryhackme, Easy]
 tags: [linux, enumeration, revshell, reverseengineering]
