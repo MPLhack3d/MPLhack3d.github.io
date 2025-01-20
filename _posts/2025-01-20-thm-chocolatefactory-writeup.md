@@ -1,7 +1,7 @@
 ---
 title: "Chocolate Factory"
 date: 2025-01-20
-image: /assets/img/tryhackme/ChocolateFactory/ChocolateFactory_image.png
+image: /assets/img/tryhackme/ChocolateFactory/ChocolateFactory_image.jpg
 description: Writeup of the TryHackMe-CTF Chocolate Factory
 categories: [Tryhackme, Easy]
 tags: [linux, enumeration, revshell, reverseengineering]
@@ -176,7 +176,7 @@ ________________________________________________
 The login was possible with the user name `charlie` and the brute forced password.
 After logging in, we get a simple command execution page:
 
-![command execution page](/assets/img/tryhackme/thm_chocolatefactory_1.png){: width="293" height="96" .w-75 .normal}
+//image here
 
 First enumerate the web server directory by simply running ls -al
 ```text
