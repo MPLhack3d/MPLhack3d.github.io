@@ -4,7 +4,7 @@ date: 2025-01-20
 image: /assets/img/tryhackme/ChocolateFactory/ChocolateFactory_image.jpg
 description: Writeup of the TryHackMe-CTF Chocolate Factory
 categories: [Tryhackme, Easy]
-tags: [bash, linux, scripting]
+tags: [linux, enumeration, revshell, reverseengineering]
 ---
 
 ## Challenge Description
