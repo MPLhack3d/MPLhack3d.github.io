@@ -176,7 +176,7 @@ ________________________________________________
 The login was possible with the user name `charlie` and the brute forced password.
 After logging in, we get a simple command execution page:
 
-![command execution page](/assets/img/tryhackme/thm_chocolatefactory_1.jpg){: width="293" height="96" .w-75 .normal}
+![command execution page](/assets/img/tryhackme/ChocolateFactory/thm_chocolatefactory_1.jpg){: width="293" height="96" .w-75 .normal}
 
 First enumerate the web server directory by simply running ls -al
 ```text
