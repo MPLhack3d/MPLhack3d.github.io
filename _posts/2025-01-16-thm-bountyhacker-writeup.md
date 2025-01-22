@@ -40,7 +40,7 @@ tags: [linux, web, ssh, hydra, bruteforce, privesc]
 This writeup is a possible solution of the CTF-challenge Bounty Hacker
 
 ## Enumeration
-I started the enumeration using nmap:
+I started the enumeration using `nmap`:
 ```bash
 $ nmap 10.10.66.27
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-22 04:25 EST
