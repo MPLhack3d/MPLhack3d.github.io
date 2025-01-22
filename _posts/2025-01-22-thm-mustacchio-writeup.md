@@ -153,7 +153,7 @@ The website had a textfeld and a headline which said `"Add a comment on the webs
 ![XML Comment Textfield](/assets/img/tryhackme/Mustacchio/thm_mustacchio_3.jpg){: width="581" height="493" .w-75 .normal}
 
 XML always sounds like XXE so I tried the following payload...
-```XML
+```text
 <!DOCTYPE people[
    <!ENTITY thmFile SYSTEM "file:///etc/passwd">
 ]>
