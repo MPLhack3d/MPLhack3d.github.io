@@ -166,11 +166,11 @@ XML always sounds like XXE so I tried the following payload...
 ```
 ... and had success:
 
-![XML Comment Textfield](/assets/img/tryhackme/Mustacchio/thm_mustacchio_4.jpg){: width="2578" height="787" .w-75 .normal}
+![XML Comment Textfield](/assets/img/tryhackme/Mustacchio/thm_mustacchio_4.jpg){: width="2578" height="787"}
 
 With the comment about Barry's ssh key could be found somewhere I tried to look for it:
 
-![XML Comment Textfield](/assets/img/tryhackme/Mustacchio/thm_mustacchio_5.jpg){: width="2578" height="787" .w-75 .normal}
+![XML Comment Textfield](/assets/img/tryhackme/Mustacchio/thm_mustacchio_5.jpg){: width="2578" height="787"}
 
 That must be Barry's ssh key so I downloaded it and prepared it to use it. First extract the hash using `ssh2john` to crack the password we need for the connection:
 ```bash
