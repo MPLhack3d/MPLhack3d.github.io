@@ -136,13 +136,13 @@ Analyzing '1868e36a6d2b17d4c2745f1659433a54d4bc5f4b'
 [+] Skein-512(160)
 ```
 SHA1 hashes can be found in the <a href="https://crackstation.net/">CrackStation</a> database, so I gave it try: 
-![CrackStaion result](/assets/img/tryhackme/Mustacchio/thm_mustacchio_1.jpg){: width="1014" height="86" .w-75}
+![CrackStaion result](/assets/img/tryhackme/Mustacchio/thm_mustacchio_1.jpg){: width="1014" height="86" .w-75 .normal}
 
 The other directories didn't provide anything useful so I moved on.
 
 ## Port 8765 Analysis
 The server provided another website with a login form under port 8765. 
-![Admin Login](/assets/img/tryhackme/Mustacchio/thm_mustacchio_2.jpg){: width="332" height="350" .w-75}
+![Admin Login](/assets/img/tryhackme/Mustacchio/thm_mustacchio_2.jpg){: width="332" height="350" .w-75 .normal}
 
 I tried the credentials for the user admin I got in the previous step and was able to login. Always start with source code analysis, which reveal me the following comment:
 ```html
@@ -150,7 +150,8 @@ I tried the credentials for the user admin I got in the previous step and was ab
 ```
 
 The website had a textfeld and a headline which said `"Add a comment on the website."`. After some tests I got the following error message:
-![XML Comment Textfield](/assets/img/tryhackme/Mustacchio/thm_mustacchio_3.jpg){: width="581" height="493" .w-75 }
+
+![XML Comment Textfield](/assets/img/tryhackme/Mustacchio/thm_mustacchio_3.jpg){: width="581" height="493" .w-75 .normal}
 
 XML always sounds like XXE so I tried the following payload...
 ```text
@@ -164,10 +165,12 @@ XML always sounds like XXE so I tried the following payload...
 </people>
 ```
 ... and had success:
-![XML Comment Textfield](/assets/img/tryhackme/Mustacchio/thm_mustacchio_4.jpg){: width="2578" height="787" .w-75}
+
+![XML Comment Textfield](/assets/img/tryhackme/Mustacchio/thm_mustacchio_4.jpg){: width="2578" height="787" .w-75 .normal}
 
 With the comment about Barry's ssh key could be found somewhere I tried to look for it:
-![XML Comment Textfield](/assets/img/tryhackme/Mustacchio/thm_mustacchio_5.jpg){: width="2578" height="787" .w-75}
+
+![XML Comment Textfield](/assets/img/tryhackme/Mustacchio/thm_mustacchio_5.jpg){: width="2578" height="787" .w-75 .normal}
 
 That must be Barry's ssh key so I downloaded it and prepared it to use it. First extract the hash using `ssh2john` to crack the password we need for the connection:
 ```bash
