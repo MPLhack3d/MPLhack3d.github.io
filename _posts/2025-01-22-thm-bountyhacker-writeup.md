@@ -91,10 +91,10 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 37.20 seconds
 ```
-from here I analyzed the services one after another
+from here I analyzed the services one after another.
 
 ## FTP Analysis
-As we can see in the nmap output the ftp server allow anonymous access. Therefore I trief to access the service
+As we can see in the nmap output the ftp server allow anonymous access. Therefore I trief to access the service:
 
 ```bash
 $ ftp anonymous@10.10.59.122
