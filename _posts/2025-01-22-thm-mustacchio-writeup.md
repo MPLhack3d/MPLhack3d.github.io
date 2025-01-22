@@ -151,7 +151,7 @@ I tried the credentials for the user admin I got in the previous step and was ab
 
 The website had a textfeld and a headline which said `"Add a comment on the website."`. After some tests I got the following error message:
 
-![XML Comment Textfield](/assets/img/tryhackme/Mustacchio/thm_mustacchio_3.jpg){: width="581" height="493"}
+![XML Comment Textfield](/assets/img/tryhackme/Mustacchio/thm_mustacchio_3.jpg){: width="412" height="350"}
 
 XML always sounds like XXE so I tried the following payload...
 ```text
