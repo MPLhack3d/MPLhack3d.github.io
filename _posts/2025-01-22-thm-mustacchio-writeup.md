@@ -142,7 +142,7 @@ The other directories didn't provide anything useful so I moved on.
 
 ## Port 8765 Analysis
 The server provided another website with a login form under port 8765. 
-![Admin Login](/assets/img/tryhackme/Mustacchio/thm_mustacchio_2.jpg){: width="727" height="766" .w-75 .normal}
+![Admin Login](/assets/img/tryhackme/Mustacchio/thm_mustacchio_2.jpg){: width="332" height="350" .w-75 .normal}
 
 I tried the credentials for the user admin I got in the previous step and was able to login. Always start with source code analysis, which reveal me the following comment:
 ```html
