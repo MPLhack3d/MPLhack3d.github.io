@@ -39,7 +39,7 @@ tags: [linux, enumeration, revshell, reverseengineering]
 
 This writeup is a possible solution of the CTF-challenge chocolate factory.  
 
-## General Enumeration
+## Enumeration
 
 The challenge introduction has a really huge image. I started with a steganography analysis of the image, but didn't got anywhere so moved over to nmap: 
 ```text
