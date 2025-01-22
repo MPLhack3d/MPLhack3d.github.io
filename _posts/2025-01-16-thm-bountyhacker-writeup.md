@@ -2,7 +2,7 @@
 title: "Bounty Hacker"
 date: 2025-01-22
 image: /assets/img/tryhackme/BountyHacker/BountyHacker_image.jpg
-description: You talked a big game about being the most elite hacker in the solar system. Prove it and claim your right to the status of Elite Bounty Hacker!
+description: Writeup of the TryHackMe-CTF Bounty Hunter
 categories: [Tryhackme, Easy]
 tags: [linux, web, ssh, hydra, bruteforce, privesc]
 ---
