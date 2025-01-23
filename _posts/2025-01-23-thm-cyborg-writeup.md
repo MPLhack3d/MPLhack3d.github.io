@@ -16,7 +16,7 @@ tags: [linux, enumeration, web, borg, privesc, code]
   </tr>
   <tr>
     <td>Name</td>
-    <td>Tomghost</td>
+    <td>Cyborg</td>
   </tr>
   <tr>
     <td>Description</td>
@@ -32,7 +32,7 @@ tags: [linux, enumeration, web, borg, privesc, code]
   </tr>
   <tr>
     <td>Link</td>
-    <td><a href="https://tryhackme.com/r/room/tomghost">https://tryhackme.com/r/room/tomghost</a></td>
+    <td><a href="https://tryhackme.com/r/room/cyborgt8">https://tryhackme.com/r/room/cyborgt8</a></td>
   </tr>
 </table>
 </center>
