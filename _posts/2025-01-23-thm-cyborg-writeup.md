@@ -2,7 +2,7 @@
 title: "Cyborg"
 date: 2025-01-23
 image: /assets/img/tryhackme/Cyborg/Cyborg_image.jpg
-description: Writeup of the TryHackMe-CTF Tomghost
+description: Writeup of the TryHackMe-CTF Cyborg
 categories: [Tryhackme, Easy]
 tags: [linux, enumeration, web, borg, privesc, code]
 ---
