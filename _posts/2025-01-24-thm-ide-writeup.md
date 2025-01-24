@@ -140,7 +140,7 @@ The webserver showing us an Apache2 default page. After several enumeration tech
 ## Port 62337 Analysis
 The website shows a login to Codiad version `2.8.4`. With the message we found previous let's try some default passwords we have in mind. Success :)
 
-![Codiad](/assets/img/tryhackme/IDE/thm_die_1.jpg){: width="1270" height="925"}
+![Codiad](/assets/img/tryhackme/IDE/thm_ide_1.jpg){: width="1270" height="925"}
 
 Played around with the site but didn't found anything intersting. I found the following <a href="https://www.exploit-db.com/exploits/49705">exploit-db</a> entry which seems to help out:
 ```bash
