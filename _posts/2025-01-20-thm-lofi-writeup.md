@@ -37,7 +37,7 @@ tags: [linux, web, file-inclusion]
 </table>
 </center>
 
-This writeup is a possible solution of the CTF-challenge Lo-Fi.  
+This writeup is a possible solution to the CTF challenge Lo-Fi.  
 
 ## Challenge
 The description gives us two hints what we need to do. 
