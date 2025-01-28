@@ -37,7 +37,7 @@ tags: [linux, privesc, lfi, web]
 </table>
 </center>
 
-This writeup is a possible solution of the CTF-challenge Corridor.  
+This writeup is a possible solution to the CTF challenge Corridor.  
 
 ## Enumeration
 I started the enumeration using `nmap`:
