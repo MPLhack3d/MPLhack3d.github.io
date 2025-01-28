@@ -37,7 +37,7 @@ tags: [linux, enumeration, revshell, web, privesc, xxe]
 </table>
 </center>
 
-This writeup is a possible solution of the CTF-challenge Mustacchio.  
+This writeup is a possible solution to the CTF challenge Mustacchio.  
 
 ## Enumeration
 I started the enumeration using `nmap`:
