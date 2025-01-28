@@ -37,7 +37,7 @@ tags: [linux, ernumeration, web, privesc, exploit]
 </table>
 </center>
 
-This writeup is a possible solution of the CTF-challenge IDE.  
+This writeup is a possible solution to the CTF challenge IDE.  
 
 ## Enumeration
 I started the enumeration using `nmap`:
