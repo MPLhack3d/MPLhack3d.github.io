@@ -137,22 +137,22 @@ In the first mail I found a referenced pcap file. Downloaded it with `wget` and 
 ## PCAP Analysis
 The pcap file only consists of 10 packets. I followed the tcp stream and found something interesting:
 
-![PCAP Analysis](/assets/img/tryhackme/Smaggrotto/thm_smaggrotto_1.jpg){:}
+![PCAP Analysis](/assets/img/tryhackme/Smaggrotto/thm_smaggrotto_1.jpg)
 
 We have already found the subdomain highlighted in the red box, but the credentials are interesting.
 
 ## development.smag.thm Analysis
 The subdomain showed us two web pages: 
 
-![Directory Browsing](/assets/img/tryhackme/Smaggrotto/thm_smaggrotto_2.jpg){:}
+![Directory Browsing](/assets/img/tryhackme/Smaggrotto/thm_smaggrotto_2.jpg)
 
 I tried the `login.php` with the previous found credentials. The login was successful and a command execution page appeard:
 
-![Command Execution](/assets/img/tryhackme/Smaggrotto/thm_smaggrotto_3.jpg){:}
+![Command Execution](/assets/img/tryhackme/Smaggrotto/thm_smaggrotto_3.jpg)
 
 I tried several commands, but the result is not displayed anywhere. This seems to be a kind of blind execution. To prove this I tried a `http` request to a webserver on the attacker machine:
 
-![PCAP Analysis](/assets/img/tryhackme/Smaggrotto/thm_smaggrotto_4.jpg){:}
+![PCAP Analysis](/assets/img/tryhackme/Smaggrotto/thm_smaggrotto_4.jpg)
 
 With this in mind I was able to receive a reverse shell by using `busybox`:
 ```bash
