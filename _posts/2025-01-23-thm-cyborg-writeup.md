@@ -37,7 +37,7 @@ tags: [linux, enumeration, web, borg, privesc, code]
 </table>
 </center>
 
-This writeup is a possible solution of the CTF-challenge Cyborg.  
+This writeup is a possible solution to the CTF challenge Cyborg.  
 
 ## Enumeration
 I started the enumeration using `nmap`:
