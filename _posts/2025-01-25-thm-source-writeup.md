@@ -37,7 +37,7 @@ tags: [linux, webmin, exploit, metasploit]
 </table>
 </center>
 
-This writeup is a possible solution of the CTF-challenge Source.  
+This writeup is a possible solution to the CTF challenge Source.  
 
 ## Enumeration
 I started the enumeration using `nmap`:
