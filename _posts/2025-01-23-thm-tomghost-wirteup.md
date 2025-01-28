@@ -37,7 +37,7 @@ tags: [linux, enumeration, vulnerability, gpg, privesc]
 </table>
 </center>
 
-This writeup is a possible solution of the CTF-challenge Tomghost.  
+This writeup is a possible solution to the CTF challenge Tomghost.  
 
 ## Enumeration
 I started the enumeration using `nmap`:
