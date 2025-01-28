@@ -37,7 +37,7 @@ tags: [linux, enumeration, revshell, reverseengineering]
 </table>
 </center>
 
-This writeup is a possible solution of the CTF-challenge chocolate factory.  
+This writeup is a possible solution to the CTF challenge chocolate factory.  
 
 ## Enumeration
 
