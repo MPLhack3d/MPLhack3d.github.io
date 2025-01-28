@@ -37,7 +37,7 @@ tags: [linux, web, ssh, hydra, bruteforce, privesc]
 </table>
 </center>
 
-This writeup is a possible solution of the CTF-challenge Bounty Hacker
+This writeup is a possible solution to the CTF challenge Bounty Hacker
 
 ## Enumeration
 I started the enumeration using `nmap`:
