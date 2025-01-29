@@ -174,7 +174,7 @@ $ searchsploit wordpress mail-masta
 ```
 This looks really intersting, lets try the Local File Inclusion from the <a href="https://www.exploit-db.com/exploits/40290">exploit-db</a> entry:
 
-![Passwd file](/assets/img/tryhackme/Allinone/thm_allinone_1.jpg)
+![LFI Passwd file](/assets/img/tryhackme/Allinone/thm_allinone_1.jpg)
 
 We can see the user `elyana` again. Let's try to exfiltrate `wordpress` configuration files:
 ```bash
