@@ -4,7 +4,7 @@ date: 2025-01-29
 image: /assets/img/tryhackme/Allinone/Allinone_image.jpg
 description: Writeup of the TryHackMe-CTF Allinone
 categories: [Tryhackme, Easy]
-tags: [linux, web, LFI, privesc]
+tags: [linux, web, lfi, privesc]
 ---
 
 ## Challenge Description
