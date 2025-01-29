@@ -2,7 +2,7 @@
 title: "All in One"
 date: 2025-01-29
 image: /assets/img/tryhackme/Allinone/Allinone_image.jpg
-description: Writeup of the TryHackMe-CTF Allinone
+description: Writeup of the TryHackMe-CTF All in One
 categories: [Tryhackme, Easy]
 tags: [linux, web, lfi, privesc]
 ---
