@@ -156,7 +156,7 @@ ls
 bin
 user.txt
 cat user.txt 
-thm{af7e46b68081d4025c5ce10851430617}
+thm{[removed]}
 ```
 
 ## Privilege Escalation lachlan
@@ -168,7 +168,7 @@ cat .bash_history
 ./cve.sh
 ./cve-patch.sh
 vi /etc/cron.d/persistence
-echo -e "dHY5pzmNYoETv7SUaY\nthisistheway123\nthisistheway123" | passwd
+echo -e "dHY5pzmNYoETv7SUaY\n[removed]\n[removed]" | passwd
 ls -sf /dev/null /home/lachlan/.bash_history
 ```
 
@@ -208,7 +208,7 @@ connect to [attackerip] from (UNKNOWN) [10.10.103.67] 37212
 whoami
 root
 cat /root/root.txt
-thm{7b708e5224f666d3562647816ee2a1d4}
+thm{[removed]}
 ```
 
 solved! :)
