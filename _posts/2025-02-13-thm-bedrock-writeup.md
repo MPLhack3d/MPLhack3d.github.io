@@ -32,7 +32,7 @@ tags: [linux, certificates, web, privesc]
   </tr>
   <tr>
     <td>Link</td>
-    <td><a href="###">###</a></td>
+    <td><a href="https://tryhackme.com/room/b3dr0ck">https://tryhackme.com/room/b3dr0ck</a></td>
   </tr>
 </table>
 </center>
@@ -239,7 +239,7 @@ fred@b3dr0ck:~$ sudo /usr/bin/base64 /root/pass.txt | base64 -d
 
 At this point, I used `CyberChef` and `Crackstation` to analyze the string:
 
-screen 1
+![Root Password](/assets/img/tryhackme/Bedrock/thm_bedrock_1.jpg)
 
 ```base64
 fred@b3dr0ck:~$ su root
