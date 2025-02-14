@@ -1,7 +1,7 @@
 ---
 title: "b3dr0ck"
 date: 2025-02-13
-image: /assets/img/Bedrock/Bedrock_image.jpg
+image: /assets/img/tryhackme/Bedrock/Bedrock_image.jpg
 description: Writeup of the TryHackMe-CTF b3dr0ck
 categories: [Tryhackme, Easy]
 tags: [linux, certificates, web, privesc]
@@ -56,10 +56,7 @@ $ nmap -p- 10.10.58.21
 
   Nmap done: 1 IP address (1 host up) scanned in 25.49 seconds
 ```
-and enumerated the found services in more depth using nmap's `-A` flag:
-```bash
 
-```
 From here I proceeded the analysis port by port.
 
 ## Port 80 Analysis
@@ -232,7 +229,7 @@ User fred may run the following commands on b3dr0ck:
 
 I then proceeded to execute the `base64` command with sudo:
 
-```base64
+```bash
 fred@b3dr0ck:~$ sudo /usr/bin/base64 /root/pass.txt | base64 -d
 [removed]
 ```
@@ -241,7 +238,7 @@ At this point, I used `CyberChef` and `Crackstation` to analyze the string:
 
 ![Root Password](/assets/img/tryhackme/Bedrock/thm_bedrock_1.jpg)
 
-```base64
+```bash
 fred@b3dr0ck:~$ su root
 	Password: 
 root@b3dr0ck:/home/fred# cd /root
