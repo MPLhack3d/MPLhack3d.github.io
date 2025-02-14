@@ -4,7 +4,7 @@ date: 2025-02-14
 image: /assets/img/tryhackme/Opacity/Opacity_image.jpg
 description: Writeup of the TryHackMe-CTF Opacity
 categories: [Tryhackme, Easy]
-tags: [linux, privesc]
+tags: [linux, web, php, fileupload, privesc]
 ---
 
 ## Challenge Description
