@@ -1,7 +1,7 @@
 ---
 title: "Opacity"
 date: 2025-02-14
-image: /assets/img/general/CTFgeneral_image.jpg
+image: /assets/img/Opacity/Opacity_image.jpg
 description: Writeup of the TryHackMe-CTF Opacity
 categories: [Tryhackme, Easy]
 tags: [linux, privesc]
