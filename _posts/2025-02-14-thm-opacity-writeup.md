@@ -153,8 +153,6 @@ $ cat local.txt
   cat: local.txt: Permission denied
 ```
 
-## Port ### Analysis
-
 ## Privilege Escalation sysadmin
 
 I searched for files which belonging to `sysadmin` which revealed an interesting file:
