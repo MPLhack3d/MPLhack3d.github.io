@@ -85,7 +85,7 @@ $ nmap -A -p 22,80,443,51337 10.10.28.42
   |_http-server-header: Apache/2.4.41 (Ubuntu)
   Service Info: Host: ip-10-10-28-42.eu-west-1.compute.internal; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
-  Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+  Service detection performed. Please report any incorrect results at https://nmap.org/submit/
   Nmap done: 1 IP address (1 host up) scanned in 26.93 seconds
 ```
 From here I proceeded the analysis port by port.
