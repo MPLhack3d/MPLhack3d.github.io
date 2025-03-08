@@ -11,7 +11,7 @@ tags: [linux, ernumeration, web, privesc, exploit]
 <center>
 <table>
   <tr>
-    <td>Plattform</td>
+    <td>Platform</td>
     <td>TryHackMe</td>
   </tr>
   <tr>
