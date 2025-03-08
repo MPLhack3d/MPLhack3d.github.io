@@ -11,7 +11,7 @@ tags: [linux, enumeration, revshell, web, privesc, xxe]
 <center>
 <table>
   <tr>
-    <td>Plattform</td>
+    <td>Platform</td>
     <td>TryHackMe</td>
   </tr>
   <tr>
