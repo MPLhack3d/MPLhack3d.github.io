@@ -86,7 +86,7 @@ The website displayed an awesome Mr. Robot-themed boot progress and command inte
 
 After interacting with it for a bit, I didn't find anything interesting and moved on to directory enumeration:
 
-```gobuster
+```bash
 $ gobuster dir --url http://10.10.233.174/ --wordlist /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -x html,txt,php
   ===============================================================
   Gobuster v3.6
