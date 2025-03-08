@@ -11,7 +11,7 @@ tags: [linux, enumeration, vulnerability, gpg, privesc]
 <center>
 <table>
   <tr>
-    <td>Plattform</td>
+    <td>Platform</td>
     <td>TryHackMe</td>
   </tr>
   <tr>
