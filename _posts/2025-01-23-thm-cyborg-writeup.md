@@ -11,7 +11,7 @@ tags: [linux, enumeration, web, borg, privesc, code]
 <center>
 <table>
   <tr>
-    <td>Plattform</td>
+    <td>Platform</td>
     <td>TryHackMe</td>
   </tr>
   <tr>
