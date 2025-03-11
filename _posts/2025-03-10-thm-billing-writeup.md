@@ -3,7 +3,7 @@ title: "Billing"
 date: 2025-03-10
 image: /assets/img/tryhackme/Billing/Billing_image.jpg
 description: Writeup of the TryHackMe-CTF Billing
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, metasploit, web, privesc]
 ---
 
