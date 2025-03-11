@@ -3,7 +3,7 @@ title: "W1seGuy"
 date: 2025-03-11
 image: /assets/img/general/CTFgeneral_image.jpg
 description: Writeup of the TryHackMe-CTF W1seGuy
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, xor]
 ---
 
