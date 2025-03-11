@@ -3,7 +3,7 @@ title: "b3dr0ck"
 date: 2025-02-13
 image: /assets/img/tryhackme/Bedrock/Bedrock_image.jpg
 description: Writeup of the TryHackMe-CTF b3dr0ck
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, certificates, web, privesc]
 ---
 
