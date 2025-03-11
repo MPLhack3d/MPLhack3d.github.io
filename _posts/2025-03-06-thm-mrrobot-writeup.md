@@ -3,7 +3,7 @@ title: "Mr Robot CTF"
 date: 2025-03-06
 image: /assets/img/tryhackme/Mrrobot/mrrobot_image.jpg
 description: Writeup of the TryHackMe-CTF Mr Robot CTF
-categories: [Tryhackme, Medium]
+categories: [TryHackMe, Medium]
 tags: [linux, wordpress, privesc]
 ---
 
