@@ -3,7 +3,7 @@ title: "Bounty Hacker"
 date: 2025-01-22
 image: /assets/img/tryhackme/BountyHacker/BountyHacker_image.jpg
 description: Writeup of the TryHackMe-CTF Bounty Hunter
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, web, ssh, hydra, bruteforce, privesc]
 ---
 
