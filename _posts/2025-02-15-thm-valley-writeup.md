@@ -3,7 +3,7 @@ title: "Valley"
 date: 2025-02-15
 image: /assets/img/tryhackme/Valley/Valley_image.jpg
 description: Writeup of the TryHackMe-CTF Valley
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, privesc, rev, web]
 ---
 
