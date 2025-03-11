@@ -3,7 +3,7 @@ title: "Lo-Fi"
 date: 2025-01-20
 image: /assets/img/tryhackme/Lofi/Lofi_image.jpg
 description: Writeup of the TryHackMe-CTF Lo-Fi
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, web, file-inclusion]
 ---
 
