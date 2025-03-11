@@ -3,7 +3,7 @@ title: "Surfer"
 date: 2025-02-10
 image: /assets/img/tryhackme/Surfer/Surfer_image.jpg
 description: Writeup of the TryHackMe-CTF Surfer
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, web, ssrf]
 ---
 
