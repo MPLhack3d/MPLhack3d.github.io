@@ -3,7 +3,7 @@ title: "Grep"
 date: 2025-02-20
 image: /assets/img/tryhackme/Grep/Grep_image.jpg
 description: Writeup of the TryHackMe-CTF Grep
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, web]
 ---
 
