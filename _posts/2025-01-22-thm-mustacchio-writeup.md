@@ -3,7 +3,7 @@ title: "Mustacchio"
 date: 2025-01-22
 image: /assets/img/tryhackme/Mustacchio/Mustacchio_image.jpg
 description: Writeup of the TryHackMe-CTF Mustacchio
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, enumeration, revshell, web, privesc, xxe]
 ---
 
