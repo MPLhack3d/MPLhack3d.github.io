@@ -3,7 +3,7 @@ title: "Smag Grotto"
 date: 2025-01-28
 image: /assets/img/tryhackme/Smaggrotto/Smaggrotto_image.jpg
 description: Writeup of the TryHackMe-CTF Smag Grotto
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, web, ssh, privesc]
 ---
 
