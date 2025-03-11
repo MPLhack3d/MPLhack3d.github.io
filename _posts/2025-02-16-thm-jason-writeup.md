@@ -3,7 +3,7 @@ title: "Jax sucks alot............."
 date: 2025-02-16
 image: /assets/img/general/CTFgeneral_image.jpg
 description: Writeup of the TryHackMe-CTF Jax sucks alot
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, node, privesc]
 ---
 
