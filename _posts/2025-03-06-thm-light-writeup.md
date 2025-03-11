@@ -3,7 +3,7 @@ title: "Light"
 date: 2025-03-06
 image: /assets/img/tryhackme/Light/Light_image.jpg
 description: Writeup of the TryHackMe-CTF Light
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, sqli]
 ---
 
