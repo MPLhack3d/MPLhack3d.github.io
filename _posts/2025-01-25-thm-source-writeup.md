@@ -3,7 +3,7 @@ title: "Source"
 date: 2025-01-25
 image: /assets/img/tryhackme/Source/Source_image.jpg
 description: Writeup of the TryHackMe-CTF Source
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, webmin, exploit, metasploit]
 ---
 
