@@ -3,7 +3,7 @@ title: "Plotted-TMS"
 date: 2025-02-12
 image: /assets/img/general/CTFgeneral_image.jpg
 description: Writeup of the TryHackMe-CTF Plotted-TMS
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, web, enumeration, sqli, privesc]
 ---
 
