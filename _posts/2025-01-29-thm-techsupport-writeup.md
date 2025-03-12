@@ -3,7 +3,7 @@ title: "Tech_Supp0rt: 1"
 date: 2025-01-29
 image: /assets/img/tryhackme/Techsupport/Techsupport_image.jpg
 description: Writeup of the TryHackMe-CTF Tech_Supp0rt 1
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, web, enumeration, privesc]
 ---
 

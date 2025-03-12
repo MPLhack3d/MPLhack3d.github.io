@@ -3,7 +3,7 @@ title: "Git Happens"
 date: 2025-02-02
 image: /assets/img/general/CTFgeneral_image.jpg
 description: Writeup of the TryHackMe-CTF Git Happens
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, git]
 ---
 

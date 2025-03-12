@@ -3,7 +3,7 @@ title: "Ninja Skills"
 date: 2025-01-16
 image: /assets/img/tryhackme/NinjaSkills/NinjaSkills_image.jpg
 description: Writeup of the TryHackMe-CTF Ninja Skills
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [bash, linux, scripting]
 ---
 

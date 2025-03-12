@@ -3,7 +3,7 @@ title: "Res"
 date: 2025-02-05
 image: /assets/img/general/CTFgeneral_image.jpg
 description: Writeup of the TryHackMe-CTF Res
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, dbms, redis, privesc]
 ---
 

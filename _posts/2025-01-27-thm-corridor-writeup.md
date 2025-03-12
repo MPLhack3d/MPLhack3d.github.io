@@ -3,7 +3,7 @@ title: "Corridor"
 date: 2025-01-27
 image: /assets/img/tryhackme/Corridor/Corridor_image.jpg
 description: Writeup of the TryHackMe-CTF Corridor
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, privesc, lfi, web]
 ---
 

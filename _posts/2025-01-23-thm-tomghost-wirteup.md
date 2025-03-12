@@ -3,7 +3,7 @@ title: "Tomghost"
 date: 2025-01-23
 image: /assets/img/tryhackme/Tomghost/Tomghost_image.jpg
 description: Writeup of the TryHackMe-CTF Tomghost
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, enumeration, vulnerability, gpg, privesc]
 ---
 

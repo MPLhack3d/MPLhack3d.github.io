@@ -3,7 +3,7 @@ title: "Hacker vs. Hacker"
 date: 2025-02-13
 image: /assets/img/tryhackme/Hackervshacker/Hackervshacker_image.jpg
 description: Writeup of the TryHackMe-CTF Hacker vs. Hacker
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, web, privesc]
 ---
 

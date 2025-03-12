@@ -3,7 +3,7 @@ title: "Gallery"
 date: 2025-01-30
 image: /assets/img/tryhackme/Gallery/Gallery_image.jpg
 description: Writeup of the TryHackMe-CTF Gallery
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, privesc, web, enumeration, rce]
 ---
 

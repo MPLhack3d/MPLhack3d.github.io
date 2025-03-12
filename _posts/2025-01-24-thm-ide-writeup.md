@@ -3,7 +3,7 @@ title: "IDE"
 date: 2025-01-24
 image: /assets/img/tryhackme/IDE/IDE_image.jpg
 description: Writeup of the TryHackMe-CTF IDE
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, ernumeration, web, privesc, exploit]
 ---
 
