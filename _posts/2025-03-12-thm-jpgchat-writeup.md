@@ -94,7 +94,7 @@ The payload worked, and I got the output as expected:
 ```bash
 $ python3 test.py
   test
-	kali
+  kali
 ```
 
 Using the `;` I was able to expand the logic and break out. Since I was able to execute arbitrary commands on the system, I managed to gain a reverse shell using the predefined Penelope payloads:
@@ -116,7 +116,7 @@ With this initial access, I was able to successfully retrieve the user flag:
 ```bash
 wes@ubuntu-xenial:~$ cd /home/wes
 wes@ubuntu-xenial:~$ cat user.txt
-	JPC{[remove]}
+  JPC{[remove]}
 ```
 
 ## Privilege Escalation vagrant
