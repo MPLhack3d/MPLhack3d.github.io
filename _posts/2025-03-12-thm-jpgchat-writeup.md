@@ -143,8 +143,8 @@ print(compare.Str('hello', 'hello', 'hello'))
 For an initial proof of concept, I searched for a directory where I had write permissions and set the `PYTHONPATH` to that location:
 ```bash
 wes@ubuntu-xenial:~$ find / -writable 2>/dev/null | cut -d "/" -f 2,3 | grep -v proc | sort -u
-	[...]
-	/home/wes
+  [...]
+  /home/wes
   [...]
 wes@ubuntu-xenial:~$ export PYTHONPATH=/home/wes
 ```
