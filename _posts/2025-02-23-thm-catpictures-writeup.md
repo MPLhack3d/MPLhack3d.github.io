@@ -3,7 +3,7 @@ title: "Cat Pictures"
 date: 2025-02-23
 image: /assets/img/tryhackme/Catpictures/Catpictures_image.jpg
 description: Writeup of the TryHackMe-CTF Cat Pictures
-categories: [Tryhackme, Easy]
+categories: [TryHackMe, Easy]
 tags: [linux, privesc]
 ---
 
