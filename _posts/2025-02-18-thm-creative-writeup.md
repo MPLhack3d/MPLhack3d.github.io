@@ -169,7 +169,7 @@ $ john --wordlist=/usr/share/wordlists/rockyou.txt hash
   Cost 2 (iteration count) is 16 for all loaded hashes
   Will run 8 OpenMP threads
   Press 'q' or Ctrl-C to abort, almost any other key for status
-  sweetness        (id_rsa)     
+  [removed]        (id_rsa)     
   1g 0:00:00:10 DONE (2025-02-18 04:23) 0.09124g/s 87.59p/s 87.59c/s 87.59C/s hawaii..sandy
   Use the "--show" option to display all of the cracked passwords reliably
   Session completed. 
