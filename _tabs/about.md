@@ -14,5 +14,5 @@ Feel free to connect with me on my socials. I'm always eager to engage with fell
 
 My current stats are listed below:
 
-## Tryhackme
+## TryHackMe
 <img src="https://tryhackme-badges.s3.amazonaws.com/MPLhack3d.png" alt="MPLhack3d - Tryhackme" />
