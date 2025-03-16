@@ -1,7 +1,7 @@
 ---
 title: "Dreaming"
 date: 2025-02-17
-image: /assets/img/general/CTFgeneral_image.jpg
+image: /assets/img/tryhackme/Dreaming/Dreaming_image.jpg
 description: Writeup of the TryHackMe-CTF Dreaming
 categories: [TryHackMe, Easy]
 tags: [linux, python, web, exploit]
