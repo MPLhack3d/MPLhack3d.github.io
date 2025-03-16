@@ -99,11 +99,11 @@ $ gobuster dir --url http://10.10.145.239 --wordlist /usr/share/wordlists/dirbus
   /app                  (Status: 301) [Size: 312] [--> http://10.10.145.239/app/]
 ```
 
-screen 1
+![Directory listing](/assets/img/tryhackme/Dreaming/thm_dreaming_1.jpg)
 
 The `/app` directory had directory browsing active and showed a folder called `pluck-4.7.13`. This folder provided another website. The URL was particularly interesting because of the `file` parameter, so I tried a path traversal attack which gave me the following error message:
 
-screen 2
+![Path traversal attempt](/assets/img/tryhackme/Dreaming/thm_dreaming_2.jpg)
 
 Another Gobuster scan inside the `pluck-4.7.13` directory, didn't reveal anything useful.
 ```bash
@@ -132,7 +132,7 @@ $ gobuster dir --url http://10.10.145.239/app/pluck-4.7.13/ --wordlist /usr/shar
 
 I performed research on the version number of the content management system and found an entry in the <a href="https://www.exploit-db.com/exploits/49909">exploit-db</a>. The exploit needed the admin password. Since the instance did not appear personalized, I found the default credentials online. 
 
-screen 3
+![pluck login](/assets/img/tryhackme/Dreaming/thm_dreaming_2.jpg)
 
 With the found credentials, I could execute the exploit:
 ```bash
@@ -145,7 +145,7 @@ Uploaded Webshell to: http://10.10.145.239:80/app/pluck-4.7.13//files/shell.phar
 
 The web shell worked perfectly, so I had an initial access:
 
-screen 4
+![p0wny shell](/assets/img/tryhackme/Dreaming/thm_dreaming_2.jpg)
 
 I used the web shell to switch to a `netcat` reverse shell and stabilized it. Since the challenge had a flag order, I proceeded by enumerating the user Lucien.
 
