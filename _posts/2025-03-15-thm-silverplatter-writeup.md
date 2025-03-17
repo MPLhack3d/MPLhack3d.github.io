@@ -169,8 +169,10 @@ During my initial research, I also found an Insecure Direct Object Reference (ID
 
 ![Interesting Message](/assets/img/tryhackme/SilverPlatter/thm_silverplatter_3.jpg)
 
+```bash
 tim@silver-platter:~$ cat user.txt 
-THM{[removed]}
+  THM{[removed]}
+```
 
 ## Privilege Escalation tyler
 
