@@ -1,7 +1,7 @@
 ---
 title: "TryHack3M: Bricks Heist"
 date: 2025-02-06
-image: /assets/img/general/CTFgeneral_image.jpg
+image: /assets/img/tryhacke/Tryhack3mbrickheist/Tryhack3mbrickheist_image.jpg
 description: Writeup of the TryHackMe-CTF TryHack3M Bricks Heist
 categories: [TryHackMe, Easy]
 tags: [linux, web, blockchain, wordpress]
@@ -135,7 +135,7 @@ From here I proceeded the analysis port by port.
 
 The web server only displayed an image of a brick wall:
 
-![Website](/assets/img/tryhackme/tryhack3mbrickheist/thm_tryhack3mbrickheist_1.jpg)
+![Website](/assets/img/tryhackme/Tryhack3mbrickheist/thm_tryhack3mbrickheist_1.jpg)
 
 I proceeded with a Gobuster directory enumeration and found a significant number of directories:
 ```bash
@@ -281,18 +281,18 @@ head [removed].conf
 
 After decoding the ID using CyberChef, I found the wallet address:
 
-![Wallet Address Decode](/assets/img/tryhackme/tryhack3mbrickheist/thm_tryhack3mbrickheist_2.jpg)
+![Wallet Address Decode](/assets/img/tryhackme/Tryhack3mbrickheist/thm_tryhack3mbrickheist_2.jpg)
 
 I split the wallet address and searched for it on blockchain.com:
 
-![wallet on Blockchain.com](/assets/img/tryhackme/tryhack3mbrickheist/thm_tryhack3mbrickheist_3.jpg)
+![wallet on Blockchain.com](/assets/img/tryhackme/Tryhack3mbrickheist/thm_tryhack3mbrickheist_3.jpg)
 
 After checking the transaction details, I was able to identify the wallet that sends BTC to the miner's wallet:
 
-![Transaction](/assets/img/tryhackme/tryhack3mbrickheist/thm_tryhack3mbrickheist_4.jpg)
+![Transaction](/assets/img/tryhackme/Tryhack3mbrickheist/thm_tryhack3mbrickheist_4.jpg)
 
 After conducting further research, I discovered that the sender's wallet is mentioned in several articles, which links it to a known APT group:
 
-![News Article](/assets/img/tryhackme/tryhack3mbrickheist/thm_tryhack3mbrickheist_5.jpg)
+![News Article](/assets/img/tryhackme/Tryhack3mbrickheist/thm_tryhack3mbrickheist_5.jpg)
 
 solved! :)
