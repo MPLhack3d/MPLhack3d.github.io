@@ -289,7 +289,7 @@ I split the wallet address and searched for it on blockchain.com:
 
 After checking the transaction details, I was able to identify the wallet that sends BTC to the miner's wallet:
 
-![Transaction](/assets/img/tryhackme/Tryhack3mbrickheist/thm_tryhack3mbrickheist_4.jpg)
+![Blockchain Transaction](/assets/img/tryhackme/Tryhack3mbrickheist/thm_tryhack3mbrickheist_4.jpg)
 
 After conducting further research, I discovered that the sender's wallet is mentioned in several articles, which links it to a known APT group:
 
