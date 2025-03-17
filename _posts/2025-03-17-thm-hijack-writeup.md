@@ -1,6 +1,6 @@
 ---
 title: "Hijack"
-date: 2025-03-15
+date: 2025-03-17
 image: /assets/img/tryhackme/Hijack/Hijack_image.jpg
 description: Writeup of the TryHackMe-CTF Hijack
 categories: [TryHackMe, Easy]
