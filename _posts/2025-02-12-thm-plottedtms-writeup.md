@@ -43,7 +43,7 @@ This writeup is a possible solution of the CTF-challenge Plotted-TMS.
 I started the enumeration using `nmap`:
 ```bash
 $ nmap -p- 10.10.118.160
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-11 12:50 EST
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-12 12:50 EST
   Nmap scan report for 10.10.118.160
   Host is up (0.041s latency).
   Not shown: 65532 closed tcp ports (conn-refused)
@@ -57,7 +57,7 @@ $ nmap -p- 10.10.118.160
 and enumerated the found services in more depth using nmap's `-A` flag:
 ```bash
 $ nmap -A -p 22,80,445 10.10.118.160
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-11 12:51 EST
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-12 12:51 EST
   Nmap scan report for 10.10.118.160
   Host is up (0.039s latency).
 

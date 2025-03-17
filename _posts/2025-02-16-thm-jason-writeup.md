@@ -43,7 +43,7 @@ This writeup is a possible solution of the CTF-challenge Jax sucks alot.........
 I started the enumeration using `nmap`:
 ```bash
 $ nmap -p- 10.10.26.215
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-11 05:33 EST
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-16 05:33 EST
   Nmap scan report for 10.10.26.215
   Host is up (0.058s latency).
   Not shown: 65533 closed tcp ports (conn-refused)

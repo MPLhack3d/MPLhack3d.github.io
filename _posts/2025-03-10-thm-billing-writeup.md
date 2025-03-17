@@ -43,7 +43,7 @@ This writeup is a possible solution of the CTF-challenge Billing.
 I started the enumeration using `nmap`:
 ```bash
 $ nmap -p- 10.10.46.219         
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-08 05:13 EST
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-10 05:13 EST
   Nmap scan report for 10.10.46.219
   Host is up (0.046s latency).
   Not shown: 65531 closed tcp ports (conn-refused)
@@ -58,7 +58,7 @@ $ nmap -p- 10.10.46.219
 and enumerated the found services in more depth using nmap's `-A` flag:
 ```bash
 $ nmap -A -p 22,80,3306,5038 10.10.46.219
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-08 05:14 EST
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-10 05:14 EST
   Nmap scan report for 10.10.46.219
   Host is up (0.042s latency).
 

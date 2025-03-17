@@ -43,7 +43,7 @@ This writeup is a possible solution of the CTF-challenge Hijack.
 I started the enumeration using `nmap`:
 ```bash
 $ nmap -p- 10.10.125.174
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-15 09:02 EDT
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-17 09:02 EDT
   Nmap scan report for 10.10.125.174
   Host is up (0.043s latency).
   Not shown: 65526 closed tcp ports (conn-refused)
@@ -63,7 +63,7 @@ $ nmap -p- 10.10.125.174
 and enumerated the found services in more depth using nmap's `-A` flag:
 ```bash
 $ nmap -A -p 21,22,80,111,2049,36084,37640,52249,54084 10.10.125.174
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-15 09:04 EDT
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-17 09:04 EDT
   Nmap scan report for 10.10.125.174
   Host is up (0.040s latency).
 

@@ -43,7 +43,7 @@ This writeup is a possible solution of the CTF-challenge TryHack3M: Bricks Heist
 I started the enumeration using `nmap`:
 ```bash
 $ nmap -p- 10.10.61.202
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-18 05:36 EST
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-06 05:36 EST
   Nmap scan report for bricks.thm (10.10.61.202)
   Host is up (0.040s latency).
   Not shown: 65531 closed tcp ports (conn-refused)
@@ -58,7 +58,7 @@ $ nmap -p- 10.10.61.202
 and enumerated the found services in more depth using nmap's `-A` flag:
 ```bash
 $ nmap -A -p 22,80,443,3306 10.10.61.202
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-18 05:37 EST
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-06 05:37 EST
   Nmap scan report for bricks.thm (10.10.61.202)
   Host is up (0.038s latency).
 

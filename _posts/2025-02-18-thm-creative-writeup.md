@@ -43,7 +43,7 @@ This writeup is a possible solution of the CTF-challenge Creative.
 I started the enumeration using `nmap`:
 ```bash
 $ nmap -p- 10.10.222.5               
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-17 12:54 EST
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-18 12:54 EST
   Nmap scan report for 10.10.222.5
   Host is up (0.045s latency).
   Not shown: 65533 filtered tcp ports (no-response)
@@ -56,7 +56,7 @@ $ nmap -p- 10.10.222.5
 and enumerated the found services in more depth using nmap's `-A` flag:
 ```bash
 $ nmap -A -p 22,80 10.10.222.5
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-17 12:57 EST
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-18 12:57 EST
   Nmap scan report for 10.10.222.5
   Host is up (0.044s latency).
 

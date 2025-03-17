@@ -43,7 +43,7 @@ This writeup is a possible solution of the CTF-challenge Git Happens.
 I started the enumeration using `nmap`:
 ```bash
 $ nmap -p- 10.10.89.255                             
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-27 12:21 EST
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-02 12:21 EST
   Nmap scan report for 10.10.89.255
   Host is up (0.038s latency).
   Not shown: 65534 closed tcp ports (conn-refused)
@@ -55,7 +55,7 @@ $ nmap -p- 10.10.89.255
 and enumerated the found services in more depth using nmap's `-A` flag:
 ```bash
 $ nmap -A -p 80 10.10.89.255
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-27 12:22 EST
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-02 12:22 EST
   Nmap scan report for 10.10.89.255
   Host is up (0.037s latency).
 

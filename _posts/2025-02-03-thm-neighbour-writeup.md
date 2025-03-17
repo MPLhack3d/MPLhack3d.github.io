@@ -43,7 +43,7 @@ This writeup is a possible solution of the CTF-challenge Neighbour.
 I started the enumeration using `nmap`:
 ```bash
 $ nmap -p- 10.10.118.17
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-10 14:02 EST
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-03 14:02 EST
   Nmap scan report for 10.10.118.17
   Host is up (0.046s latency).
   Not shown: 65533 closed tcp ports (conn-refused)
@@ -56,7 +56,7 @@ $ nmap -p- 10.10.118.17
 and enumerated the found services in more depth using nmap's `-A` flag:
 ```bash
 $ nmap -A -p 22,80 10.10.118.17
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-10 14:03 EST
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-03 14:03 EST
   Nmap scan report for 10.10.118.17
   Host is up (0.038s latency).
 

@@ -43,7 +43,7 @@ This writeup is a possible solution of the CTF-challenge Cat Pictures.
 I started the enumeration using `nmap`:
 ```bash
 $ nmap -p- 10.10.123.54
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-14 13:05 EST
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-23 13:05 EST
   Nmap scan report for 10.10.123.54
   Host is up (0.045s latency).
   Not shown: 65532 closed tcp ports (conn-refused)
@@ -57,7 +57,7 @@ $ nmap -p- 10.10.123.54
 and enumerated the found services in more depth using nmap's `-A` flag:
 ```bash
 $ nmap -A -p 22,4420,8080 10.10.123.54
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-14 13:06 EST
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-02-23 13:06 EST
   Nmap scan report for 10.10.123.54
   Host is up (0.038s latency).
 
