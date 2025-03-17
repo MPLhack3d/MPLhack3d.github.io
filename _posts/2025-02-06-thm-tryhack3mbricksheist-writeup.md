@@ -1,7 +1,7 @@
 ---
 title: "TryHack3M: Bricks Heist"
 date: 2025-02-06
-image: /assets/img/tryhacke/Tryhack3mbrickheist/Tryhack3mbrickheist_image.jpg
+image: /assets/img/tryhackme/Tryhack3mbrickheist/Tryhack3mbrickheist_image.jpg
 description: Writeup of the TryHackMe-CTF TryHack3M Bricks Heist
 categories: [TryHackMe, Easy]
 tags: [linux, web, blockchain, wordpress]
