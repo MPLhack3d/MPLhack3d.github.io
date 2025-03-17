@@ -293,6 +293,6 @@ After checking the transaction details, I was able to identify the wallet that s
 
 After conducting further research, I discovered that the sender's wallet is mentioned in several articles, which links it to a known APT group:
 
-![News Article](/assets/img/tryhackme/Tryhack3mbrickheist/thm_tryhack3mbrickheist_5.jpg)
+![News Article Example](/assets/img/tryhackme/Tryhack3mbrickheist/thm_tryhack3mbrickheist_5.jpg)
 
 solved! :)
