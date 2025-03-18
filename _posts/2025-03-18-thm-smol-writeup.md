@@ -285,7 +285,7 @@ define( 'DB_NAME', 'wordpress' );
 define( 'DB_USER', 'wpuser' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'kbLSF2Vop#lw3rjDZ629*Z%G' );
+define( 'DB_PASSWORD', 'k[removed]G' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -424,7 +424,7 @@ Using default input encoding: UTF-8
 Loaded 1 password hash (PKZIP [32/64])
 Will run 8 OpenMP threads
 Press 'q' or Ctrl-C to abort, almost any other key for status
-hero_gege@hotmail.com (wordpress.old.zip)     
+[removed] (wordpress.old.zip)     
 1g 0:00:00:00 DONE (2025-03-18 08:30) 1.724g/s 13163Kp/s 13163Kc/s 13163KC/s hesse..hellome2010
 Use the "--show" option to display all of the cracked passwords reliably
 Session completed.
@@ -445,7 +445,7 @@ define( 'DB_NAME', 'wordpress' );
 define( 'DB_USER', 'xavi' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'P@ssw0rdxavi@' );
+define( 'DB_PASSWORD', 'P[removed]@' );
 ```
 
 With this password, I was able to switch to the Xavi user:
@@ -468,7 +468,7 @@ xavi@smol:/home/gege$ sudo -l
 Using this, I was able to retrieve the root flag:
 ```bash
 xavi@smol:/home/gege$ sudo cat /root/root.txt
-  bf89ea3ea01992353aef1f576214d4e4
+  [removed]
 xavi@smol:/home/gege$ sudo su 
 root@smol:/home/gege$ id 
   uid=0(root) gid=0(root) groups=0(root)
