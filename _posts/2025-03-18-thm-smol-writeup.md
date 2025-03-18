@@ -1,7 +1,7 @@
 ---
 title: "Smol"
 date: 2025-03-18
-image: /assets/img/general/CTFgeneral_image.jpg
+image: /assets/img/tryhackme/Smol/Smol_image.jpg
 description: Writeup of the TryHackMe-CTF Smol
 categories: [TryHackMe, Medium]
 tags: [linux, WordPress, crack, database]
