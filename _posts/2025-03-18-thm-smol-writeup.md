@@ -3,7 +3,7 @@ title: "Smol"
 date: 2025-03-18
 image: /assets/img/general/CTFgeneral_image.jpg
 description: Writeup of the TryHackMe-CTF Smol
-categories: [TryHackMe, Easy]
+categories: [TryHackMe, Medium]
 tags: [linux, WordPress, crack, database]
 ---
 
@@ -24,7 +24,7 @@ tags: [linux, WordPress, crack, database]
   </tr>
   <tr>
     <td>Difficulty</td>
-    <td>Easy</td>
+    <td>Medium</td>
   </tr>
   <tr>
     <td>OS</td>
