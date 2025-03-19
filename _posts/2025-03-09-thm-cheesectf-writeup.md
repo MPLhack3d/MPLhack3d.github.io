@@ -1,7 +1,7 @@
 ---
 title: "Cheese CTF"
 date: 2025-03-09
-image: /assets/img/tryhackme/CheeseCTF_image.jpg
+image: /assets/img/tryhackme/CheeseCTF/CheeseCTF_image.jpg
 description: Writeup of the TryHackMe-CTF Cheese CTF
 categories: [TryHackMe, Easy]
 tags: [linux, nmap, lfi, sqli, systemd]
