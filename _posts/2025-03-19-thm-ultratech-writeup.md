@@ -179,7 +179,7 @@ Sitemap:
 
 The only interesting page was `partners.html`, which had a login interface:
 
-screen 1
+![UltraTech Partner Login](/assets/img/tryhackme/UltraTech/thm_ultratech_1.jpg)
 
 When entering some default credentials, the request was sent to the `/auth` endpoint of the API. Since I had already enumerated the `/auth` endpoint, I moved on.
 
@@ -192,7 +192,7 @@ const url = `http://${getAPIURL()}/ping?ip=${window.location.hostname}`
 
 I interacted with the endpoint, inserted `localhost` for the `ip` parameter, and received the bash ping command output:
 
-screen 2
+![Ping Test](/assets/img/tryhackme/UltraTech/thm_ultratech_2.jpg)
 
 To exploit this, I created a file called `shell.sh` with the following content. I made the file accessible by spawning an HTTP server using python:
 ```bash
@@ -224,11 +224,11 @@ I performed shell stabilization and moved on.
 
 After gaining initial access, I had access to the user `www`. I analyzed the user's home directory and found the API source code and the corresponding database. The database was a sqlite file, which I downloaded and opened using SQLite Browser.
 
-screen 3
+![SQLite Database](/assets/img/tryhackme/UltraTech/thm_ultratech_3.jpg)
 
 The database contained two hash values. Since the user `r00t` was also present on the machine, I attempted to look up the hash using Crackstation:
 
-screen 4
+![Crackstation](/assets/img/tryhackme/UltraTech/thm_ultratech_4.jpg)
 
 With the password provided by Crackstation, I was able to switch to the user `r00t`.
 
