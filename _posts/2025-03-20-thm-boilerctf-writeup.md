@@ -1,7 +1,7 @@
 ---
 title: "Boiler CTF"
 date: 2025-03-20
-image: /assets/img/general/BoilerCTF/BoilerCTF_image.jpg
+image: /assets/img/tryhackme/BoilerCTF/BoilerCTF_image.jpg
 description: Writeup of the TryHackMe-CTF Boiler CTF
 categories: [TryHackMe, Medium]
 tags: [linux, sar2html, find, enumeration, web]
