@@ -186,7 +186,7 @@ When entering some default credentials, the request was sent to the `/auth` endp
 ### Directory /js Analysis
 
 In the /js directory, I discovered an interesting script called `api.js`. In this script, I found the source code of the `/ping` endpoint. After analyzing the script, one part caught my attention:
-```JavaScript
+```js
 const url = `http://${getAPIURL()}/ping?ip=${window.location.hostname}`
 ```
 
