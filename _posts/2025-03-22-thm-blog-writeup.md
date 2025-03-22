@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-date: 2025-01-23
+date: 2025-03-23
 image: /assets/img/tryhackme/Blog/Blog_image.jpg
 description: Writeup of the TryHackMe-CTF Blog
 categories: [TryHackMe, Medium]
