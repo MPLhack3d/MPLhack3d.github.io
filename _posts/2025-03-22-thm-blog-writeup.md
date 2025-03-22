@@ -445,5 +445,6 @@ www-data@blog:/var/www/wordpress$ python3 exploit.py
   /media/usb/user.txt
 # cat /media/usb/user.txt
   c[removed]7
+```
 
 solved! :)
