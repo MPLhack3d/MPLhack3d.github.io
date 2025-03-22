@@ -408,7 +408,7 @@ mysql> select * from wp_users;
   +----+------------+------------------------------------+---------------+------------------------------+----------+---------------------+---------------------+-------------+---------------+
 ```
 
-I attempted to crack it using `john`, but was unsuccessful with `rockyou.txt`
+I attempted to crack it using `john`, but was unsuccessful with `rockyou.txt`:
 ```bash
 kali@kali:~/ctf/blog$ john --wordlist=/usr/share/wordlists/rockyou.txt hash
 Using default input encoding: UTF-8
@@ -419,6 +419,8 @@ Press 'q' or Ctrl-C to abort, almost any other key for status
 0g 0:00:01:21 DONE (2025-03-22 07:39) 0g/s 175061p/s 175061c/s 175061C/s !!n0t.@n0th3r.d@mn.p@$$w0rd!!..*7¡Vamos!
 Session completed.
 ```
+
+I tried to check if the user reused the password, but that was unsuccessful as well.
 
 ## Privilege Escalation root
 
