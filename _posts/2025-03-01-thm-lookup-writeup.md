@@ -4,7 +4,7 @@ date: 2025-03-01
 image: /assets/img/general/CTFgeneral_image.jpg
 description: Writeup of the TryHackMe-CTF Lookup
 categories: [TryHackMe, Easy]
-tags: [linux, web]
+tags: [linux, ci]
 ---
 
 ## Challenge Description
@@ -43,7 +43,7 @@ This writeup is a possible solution of the CTF-challenge Lookup.
 I started the enumeration using `nmap`:
 ```bash
 $ nmap -p- 10.10.180.229
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-14 07:28 EDT
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-01 07:28 EDT
   Nmap scan report for 10.10.180.229
   Host is up (0.040s latency).
   Not shown: 65533 closed tcp ports (conn-refused)
@@ -56,7 +56,7 @@ $ nmap -p- 10.10.180.229
 and enumerated the found services in more depth using nmap's `-A` flag:
 ```bash
 $ nmap -A -p 22,80 10.10.180.229
-  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-14 07:29 EDT
+  Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-03-01 07:29 EDT
   Nmap scan report for 10.10.180.229
   Host is up (0.053s latency).
 
