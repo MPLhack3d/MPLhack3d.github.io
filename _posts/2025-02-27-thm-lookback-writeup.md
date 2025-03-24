@@ -130,15 +130,15 @@ When I accessed the webserver using HTTPS, I was redirected to an Exchange serve
 
 The `/test` directory prompted for HTTP basic authentication. I tried some default username-password combinations manually and was successful. After logging in, the website displayed a log analyzer and the first flag. 
 
-![Log Analyzer](/assets/img/tryhackme/Lookup/thm_lookup_1.jpg)
+![Log Analyzer](/assets/img/tryhackme/Lookback/thm_lookback_1.jpg)
 
 It seemed to load a specified log file, so I successfully tried accessing the Windows default file `win.ini`:
 
-![Win ini](/assets/img/tryhackme/Lookup/thm_lookup_1.jpg)
+![Win ini](/assets/img/tryhackme/Lookback/thm_lookback_2.jpg)
 
 From there, I was able to read files on the desktop of the user `dev`. I retrieved the next flag and an interesting note, where one sentence caught my attention:
 
-![Note](/assets/img/tryhackme/Lookup/thm_lookup_1.jpg)
+![Note](/assets/img/tryhackme/Lookback/thm_lookback_3.jpg)
 
 ```text
 Install the Security Update for MS Exchange [TO BE DONE]
