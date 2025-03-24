@@ -98,7 +98,7 @@ PORT      STATE SERVICE  VERSION
 ```
 From here I proceeded the analysis port by port.
 
-## Port 80 Analysis
+### Port 80 Analysis
 
 The webserver displayed a `maintanance note`, as shown in the following screenshot:
 
