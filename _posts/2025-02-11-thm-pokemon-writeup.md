@@ -137,7 +137,7 @@ pokemon@root:~/Desktop/P0kEmOn$ cat grass-type.txt
 
 It appears to contain hex values, so I pasted the string into CyberChef and was able to decode it:
 
-![Decoding Grass Type](/assets/img/tryhackme/pokemon/thm_pokemon_1.jpg)
+![Decoding Grass Type](/assets/img/tryhackme/Pokemon/thm_pokemon_1.jpg)
 
 I continued enumerating the system and found another file with the same naming pattern as the previous one:
 ```bash
@@ -147,7 +147,7 @@ pokemon@root:/var/www/html$ cat water-type.txt
   E[removed]}
 ```
 
-![Decoding Water Type](/assets/img/tryhackme/pokemon/thm_pokemon_2.jpg)
+![Decoding Water Type](/assets/img/tryhackme/Pokemon/thm_pokemon_2.jpg)
 
 Since the second file followed the same naming pattern as the first, I tried to search for another Pokémon type:
 ```bash
@@ -155,7 +155,7 @@ pokemon@root:/var/www/html$ locate fire-type.txt
   /etc/why_am_i_here?/fire-type.txt
 ```
 
-![Decoding Fire Type](/assets/img/tryhackme/pokemon/thm_pokemon_3.jpg)
+![Decoding Fire Type](/assets/img/tryhackme/Pokemon/thm_pokemon_3.jpg)
 
 ## Privilege Escalation root
 
