@@ -20,7 +20,7 @@ tags: [linux, lfi, phpchainrce, rce, pkexec]
   </tr>
   <tr>
     <td>Description</td>
-    <td>A boot2root Linux machine utilising web exploits along with some common privilege escalation techniques.</td>
+    <td>A boot2root Linux machine utilizing web exploits along with some common privilege escalation techniques.</td>
   </tr>
   <tr>
     <td>Difficulty</td>
@@ -164,7 +164,7 @@ kali@kali:~/ctf/watcher$ cat flag_2.txt
   FLAG{f[removed]e}
 
 www-data@watcher:/var/www/html/more_secrets_a9f10a$ cat flag_3.txt 
-  FLAG{lfi_what_a_guy}
+  FLAG{l[removed]y}
 ```
 
 After retrieving the last flag that www-data had access to, I began escalating my privileges: 
