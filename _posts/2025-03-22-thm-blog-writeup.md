@@ -424,7 +424,7 @@ I tried to check if the user reused the password, but that was unsuccessful as w
 
 ## Privilege Escalation root
 
-I then checked for SUID bits and discoverd that `pkexec` had its SUID bit set. I used the exploit described in CVE-2021-4034 and successfully gained root access:
+I then checked for SUID bits and discoverd that `pkexec` had its SUID bit set. I used the exploit described in <a href="https://github.com/joeammond/CVE-2021-4034/blob/main/CVE-2021-4034.py">CVE-2021-4034</a> and successfully gained root access:
 ```bash
 www-data@blog:/var/www/wordpress$ find / -perm /4000 -type f 2>/dev/null
   [...]
