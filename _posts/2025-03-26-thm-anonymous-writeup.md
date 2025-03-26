@@ -1,7 +1,7 @@
 ---
 title: "Anonymous"
 date: 2025-03-26
-image: /assets/img/tryhackme/Anonymous_image.jpg
+image: /assets/img/tryhackme/Anonymous/Anonymous_image.jpg
 description: Writeup of the TryHackMe-CTF Anonymous
 categories: [TryHackMe, Medium]
 tags: [linux, ftp, smb, pkexec]
