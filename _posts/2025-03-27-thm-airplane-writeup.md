@@ -4,7 +4,7 @@ date: 2025-01-23
 image: /assets/img/tryhackme/Airplane/Airplane_image.jpg
 description: Writeup of the TryHackMe-CTF Airplane
 categories: [TryHackMe, Medium]
-tags: [linux]
+tags: [linux, lfi, proc, gdb, ruby]
 ---
 
 ## Challenge Description
