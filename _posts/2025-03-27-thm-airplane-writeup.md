@@ -1,6 +1,6 @@
 ---
 title: "Airplane"
-date: 2025-01-23
+date: 2025-03-27
 image: /assets/img/tryhackme/Airplane/Airplane_image.jpg
 description: Writeup of the TryHackMe-CTF Airplane
 categories: [TryHackMe, Medium]
