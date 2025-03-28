@@ -236,9 +236,9 @@ rabbit@wonderland:/home/rabbit$ python3 exploit.py
 # id
   uid=0(root) gid=1002(rabbit) groups=1002(rabbit)
 # cat /root/user.txt
-  thm{"Curiouser and curiouser!"}
+  thm{"C[removed]!"}
 # cat /home/alice/root.txt
-  thm{Twinkle, twinkle, little bat! How I wonder what you’re at!}
+  thm{T[removed]!}
 ```
 
 solved! :)
