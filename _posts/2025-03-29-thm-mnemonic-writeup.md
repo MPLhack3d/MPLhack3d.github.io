@@ -1,6 +1,6 @@
 ---
 title: "Mnemonic"
-date: 2025-03-28
+date: 2025-03-29
 image: /assets/img/tryhackme/Mnemonic/Mnemonic_image.jpg
 description: Writeup of the TryHackMe-CTF Mnemonic
 categories: [TryHackMe, Medium]
