@@ -154,7 +154,9 @@ kali@kali:~/ctf/nerdherd$ exiftool youfoundme.png
 Owner Name : fijbxslz
 ```
 
-The only interesting part was the owner information in the image's metadata. I pasted the string into the <a href="https://www.boxentriq.com/code-breaking/cipher-identifier">BOXENTRIQ Cipher Identifier and Analyzer</a>, which identified it as a Vigenère Cipher, but I didn't have a key yet.
+The only interesting part was the owner information in the image's metadata. I pasted the string into the <a href="https://www.boxentriq.com/code-breaking/cipher-identifier">BOXENTRIQ Cipher Identifier and Analyzer</a>, which identified it as a Vigenère Cipher, but I didn't have a key yet:
+
+![Cypher](/assets/img/tryhackme/NerdHerd/thm_nerdherd_1.jpg)
 
 
 ## Port 139 & 445 Analysis
@@ -201,11 +203,11 @@ Port 1337 was serving a web server that displayed the Apache2 default page. I in
 
 I analyzed the YouTube URL, which referenced the song `The Trashmen - Surfin Bird - Bird is the Word 1963`. In the song, the word `bird` was repeated frequently, leading me to suspect that the video or the lyric might be part of the puzzle. I started CyberChef with the Vigenère decoding module:
 
-screen 2
+![CyberChef Decoding 1](/assets/img/tryhackme/NerdHerd/thm_nerdherd_2.jpg)
 
 This result seemed incomplete, so I experimented with various combinations using the song's lyrics and eventually found the key:
 
-screen 3
+![CyberChef Decoding 2](/assets/img/tryhackme/NerdHerd/thm_nerdherd_3.jpg)
 
 ### SMB share analysis
 
@@ -276,7 +278,7 @@ kali@kali:~/ctf/nerdherd$ gobuster dir --url http://10.10.243.230:1337 --wordlis
 
 I explored the `admin`directory, which displayed a log in mechanism that didn't seem functional:
 
-screen 4
+![Login](/assets/img/tryhackme/NerdHerd/thm_nerdherd_4.jpg)
 
 While searching for the login logic, I only found an encoded string, which, after decoding, appeared incomplete:
 ```bash
@@ -296,7 +298,7 @@ kali@kali:~/ctf/nerdherd$ echo "aGVoZWdvdTwdasddHlvdQ==" | base64 -d
 
 The last directory I hadn't explored was the hidden one mentioned in the SMB share hint:
 
-screen 5
+![Hidden Directory](/assets/img/tryhackme/NerdHerd/thm_nerdherd_5.jpg)
 
 Inside, I found a `creds.txt` file containing credentials for the SSH access. I used these credentials to connect as `chuck` via SSH and retrieved the user flag:
 ```bash
