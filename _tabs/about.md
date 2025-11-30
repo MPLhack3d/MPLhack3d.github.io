@@ -33,4 +33,4 @@ My current stats are listed below:
 
 ## Certifications
 
-<div markdown="1">:white_check_mark:</div> HTB Certified Web Exploitation Specialist
+- HTB Certified Web Exploitation Specialist
