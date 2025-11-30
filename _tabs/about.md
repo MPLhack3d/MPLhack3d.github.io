@@ -24,10 +24,7 @@ My current stats are listed below:
     <td>PortSwigger</td>
   </tr>
   <tr>
-    <td >
-        <div markdown="1">
-            ![test](/assets/img/general/htb_profile_stats.png){: width="300" height="150"}</td>
-        </div>
+    <td markdown="span">![test](/assets/img/general/htb_profile_stats.png){: width="300" height="150"}</td>
     <td><img src="https://tryhackme-badges.s3.amazonaws.com/MPLhack3d.png" alt="MPLhack3d - Tryhackme" /></td>
     <td><h2>37% done</h2></td>
   </tr>
