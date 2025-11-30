@@ -24,7 +24,7 @@ My current stats are listed below:
     <td>PortSwigger</td>
   </tr>
   <tr>
-    <td>![](/assets/img/general/htb_profile_stats.png)</td>
+    <td>![test](/assets/img/general/htb_profile_stats.png)</td>
     <td><img src="https://tryhackme-badges.s3.amazonaws.com/MPLhack3d.png" alt="MPLhack3d - Tryhackme" /></td>
     <td><h1>37% done</h1></td>
   </tr>
