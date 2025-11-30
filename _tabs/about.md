@@ -14,5 +14,23 @@ Feel free to connect with me on my socials. I'm always eager to engage with fell
 
 My current stats are listed below:
 
-## TryHackMe
-<img src="https://tryhackme-badges.s3.amazonaws.com/MPLhack3d.png" alt="MPLhack3d - Tryhackme" />
+## Hacking Platforms
+
+<center>
+<table>
+  <tr>
+    <td>HackTheBox</td>
+    <td>TryHackMe</td>
+    <td>PortSwigger</td>
+  </tr>
+  <tr>
+    <td>![](/assets/img/general/htb_profile_stats.png)</td>
+    <td><img src="https://tryhackme-badges.s3.amazonaws.com/MPLhack3d.png" alt="MPLhack3d - Tryhackme" /></td>
+    <td><h1>37% done</h1></td>
+  </tr>
+</table>
+</center>
+
+## Certifications
+
+:white_check_mark: HTB Certified Web Exploitation Specialist
